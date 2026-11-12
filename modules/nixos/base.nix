@@ -32,6 +32,8 @@ in
 
     networking.networkmanager.enable = true;
 
+    zramSwap.enable = true;
+
     environment.systemPackages = with pkgs; [
       git
       wget
